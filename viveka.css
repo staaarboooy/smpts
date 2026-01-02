@@ -1,0 +1,204 @@
+/* Teléfono móvil */
+
+.phone-vk {
+  margin: 24px auto;
+  width: calc(7.78px * 38);
+  height: calc(16.09px * 38);
+  background: #000;
+  overflow: hidden;
+  border: 6px solid var(--accent);
+  border-radius: 48px;
+  box-sizing: border-box;
+  padding: 6px;
+  font-family: 'Poppins';
+}
+
+.phone-vk .content {
+  background: var(--color);
+  width: 100%;
+  height: 100%;
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.phone-vk .header {
+  color: var(--background-2);
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 12px 0px 36px;
+  font-size: 13px;
+  line-height: 72%;
+  text-align: center;
+  position: absolute;
+  background-image: linear-gradient(rgba(000,000,000,0.3), rgba(000,000,000,0) 80%);
+}
+
+.phone-vk .header hora {
+  display: block;
+  width: 100%;
+  font-weight: 500;
+}
+
+.phone-vk .header div {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  column-gap: 6px;
+  align-items: center;
+}
+
+.phone-vk .header .fa-battery-three-quarters {font-size: 15px;}
+
+.phone-vk .header isla {
+  border-radius: 12px;
+  background: #000;
+  min-width: 84px;
+  height: 24px;
+  display: block;
+  box-sizing: border-box;
+  padding: 6px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.phone-vk .header cam {
+  display: block;
+  height: 12px;
+  width: 12px;
+  background: var(--cborder);
+  border-radius: 100%;
+  opacity: 0.12;
+}
+
+.phone-vk .contacto {
+  width: 100%;
+  height: 100%;
+  background: var(--background-2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.phone-vk .picture {
+  width: 100%;
+  min-height: 70%;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.phone-vk .picture div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 12px;
+  background-image: linear-gradient(rgba(000,000,000,0) 24%, rgba(000,000,000,0.4));
+  height: 60%;
+  row-gap: 12px;
+}
+
+.phone-vk .picture name {
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 100%;
+}
+
+.phone-vk .picture enlaces {
+  display: flex;
+  column-gap: 12px;
+}
+
+.phone-vk .picture enlaces a {
+  background: rgba(102, 102, 102, 0.3);
+  width: 100%;
+  height: 36px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  backdrop-filter: blur(3px);
+  font-size: 15px;
+}
+
+.phone-vk .datos {
+  height: 100%;
+  background: var(--background-3);
+  width: 100%;
+}
+
+.phone-vk .datos div {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+  background: var(--background-2);
+  font-size: 12px;
+  border-radius: 6px;
+  padding: 12px;
+  row-gap: 12px;
+  color: var(--accent);
+  font-weight: 400;
+  height: auto;
+}
+
+.phone-vk .datos c {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background: var(--cborder);
+}
+
+.phone-vk .datos span {
+  display: block;
+  width: 100%;
+  line-height: 100%;
+}
+
+.phone-vk .footer {
+  min-height: 48px;
+  padding: 0px 24px 12px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: var(--border);
+  font-size: 18px;
+  position: relative;
+}
+
+.phone-vk .footer span {
+  min-width: 48%;
+  height: 4px;
+  background: var(--color);
+  border-radius: 2px;
+  display: block;
+  position: absolute;
+  bottom: 6px;
+  left: calc(52% / 2);
+}
+
+.phone-vk .footer i {
+  color: var(--color-icon);
+  opacity: 0.6;
+}
+
+.phone-vk .footer i#sel {
+  color: var(--accent);
+  opacity: 1;
+}

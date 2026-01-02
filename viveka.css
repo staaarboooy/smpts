@@ -202,3 +202,88 @@
   color: var(--accent);
   opacity: 1;
 }
+
+/*mensajes móvil*/
+.mssgs {
+  margin: 0px auto;
+  padding: 24px;
+  background: var(--background-2);
+  border: var(--border);
+  width: 420px;
+  border-radius: 6px;
+  display: flex;
+  row-gap: 12px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: 'Poppins';
+  color: #fff;
+  font-weight: 300;
+  line-height: 0%;
+}
+
+.mssgs .left, .mssgs .right {
+  width: 100%;
+  display: flex;
+  column-gap: 6px;
+  row-gap: 12px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+.mssgs .right { justify-content: flex-end;}
+
+.mssgs .left .bubbles { 
+  order: 3;
+  align-items: flex-start;
+  border-radius: 6px 6px 6px 0px;
+}
+
+.mssgs .left .bubbles span {
+  border-radius: 3px 6px 6px 0px;
+}
+
+.mssgs .right .bubbles { 
+  order: 1;
+  align-items: flex-end;
+  border-radius: 6px 6px 0px 6px;
+}
+
+.mssgs .right .bubbles span {
+  border-radius: 6px 3px 0px 6px;
+  background: var(--color-icon);
+}
+
+.mssgs .right .pic {
+  border-color: var(--color-icon);
+} 
+
+.mssgs .pic {
+  height: 42px;
+  width: 42px;
+  border: 3px solid var(--accent);
+  border-radius: 100%;
+  box-sizing: border-box;
+  background-size: cover;
+  overflow: hidden;
+  order: 2;
+  background-size: cover;
+  filter: grayscale(0);
+}
+
+.mssgs .bubbles {
+  width: calc(100% - 42px * 2 - 6px * 2);
+  display: flex;
+  flex-direction: column;
+  row-gap: 3px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.mssgs .bubbles span {
+  background: var(--accent);
+  padding: 9px;
+  line-height: 120%;
+}

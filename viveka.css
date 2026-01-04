@@ -9,7 +9,95 @@
   margin: 0px auto; 
   font-family: 'Poppins'; 
   display: flex; 
-  flex-direction: column; row-gap: 3px; line-height: 0px;} .vk-rol-title {width: 100%; box-sizing: border-box; height: 120px; background: var(--background-3); border: var(--border); border-radius: 2px; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative;} .vk-rol-title i {color: var(--color-icon); font-size: 10em; transform: rotate(-10deg); position: absolute; opacity: 0.2;} .vk-rol-title span {z-index: 2; color: #fff; background: var(--accent); padding: 9px 18px; font-size: 1.2em; font-weight: 700; letter-spacing: 1px; text-align: center; border-radius: 3px; text-transform: uppercase; display: flex; align-items: center; line-height: 1.2em;} .vk-rol-content {width: 100%; box-sizing: border-box; background: var(--background-3); border: var(--border); border-radius: 2px; line-height: 130%; text-align: justify; hyphens: auto; word-break: break-word; font-size: 1.04em; padding: 36px;} .vk-rol-data {background: var(--background-2); padding: 12px; border-radius: 3px; font-size: 0.96em; margin-top: 18px; text-align: left;} .vk-rol-data u {color: var(--accent); vertical-align: 0px; text-decoration: none; margin-right: 6px;} .vk-rol-data i {color: var(--color-icon); font-size: 0.72em; vertical-align: 1px; margin: 0px 3px;} .vk-rol-content strong {color: var(--accent); font-size: 600;} .vk-rol-data b {font-size: 1.08em; font-weight: 500;}
+  flex-direction: column; 
+  row-gap: 3px; 
+  line-height: 0px;
+} 
+
+.vk-rol-title {
+  width: 100%; 
+  box-sizing: border-box; 
+  height: 120px; 
+  background: var(--background-3); 
+  border: var(--border); 
+  border-radius: 2px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  overflow: hidden; 
+  position: relative;
+} 
+
+.vk-rol-title i {
+  color: var(--color-icon); 
+  font-size: 10em; 
+  transform: rotate(-10deg); 
+  position: absolute; 
+  opacity: 0.2;
+} 
+
+.vk-rol-title span {
+  z-index: 2; 
+  color: #fff; 
+  background: var(--accent); 
+  padding: 9px 18px; 
+  font-size: 1.2em; 
+  font-weight: 700; 
+  letter-spacing: 1px; 
+  text-align: center; 
+  border-radius: 3px; 
+  text-transform: uppercase; 
+  display: flex; 
+  align-items: center; 
+  line-height: 1.2em;
+} 
+
+.vk-rol-content {
+  width: 100%; 
+  box-sizing: border-box; 
+  background: var(--background-3); 
+  border: var(--border); 
+  border-radius: 2px; 
+  line-height: 130%; 
+  text-align: justify; 
+  hyphens: auto; 
+  word-break: break-word; 
+  font-size: 1.04em; 
+  padding: 36px;
+} 
+
+.vk-rol-data {
+  background: var(--background-2); 
+  padding: 12px; 
+  border-radius: 3px; 
+  font-size: 0.96em; 
+  margin-top: 18px; 
+  text-align: left;
+} 
+
+.vk-rol-data u {
+  color: var(--accent); 
+  vertical-align: 0px; 
+  text-decoration: none; 
+  margin-right: 6px;
+} 
+
+.vk-rol-data i {
+  color: var(--color-icon); 
+  font-size: 0.72em; 
+  vertical-align: 1px; 
+  margin: 0px 3px;
+} 
+
+.vk-rol-content strong {
+  color: var(--accent); 
+  font-size: 600;
+} 
+
+.vk-rol-data b {
+  font-size: 1.08em; 
+  font-weight: 500;
+}
 
 /* Teléfono móvil */
 

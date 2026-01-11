@@ -3,8 +3,8 @@
   background-image: url(https://images.unsplash.com/photo-1654292542054-1ccd80cd24da?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)!important; 
   background-attachment: fixed!important; 
   background-size: cover!important; 
-  background-color: var(--background-2)!important; 
-  background-blend-mode: overlay!important;
+  background-color: var(--background-3)!important; 
+  background-blend-mode: color-burn!important;
   background-position: top;
   color: var(--color);
   width: 994px;
@@ -201,8 +201,8 @@
   background-image: url(https://images.unsplash.com/photo-1654292542054-1ccd80cd24da?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)!important; 
   background-attachment: fixed!important; 
   background-size: cover!important; 
-  background-color: var(--background-2)!important; 
-  background-blend-mode: overlay!important;
+  background-color: var(--background-3)!important; 
+  background-blend-mode: color-burn!important;
   background-position: top;
   width: 644px;
   margin: auto;

@@ -1,17 +1,17 @@
 /* starter */
 .ioatc-resumen {
-  --accent: rgba(230, 190, 138, 1);
+  background-image: url(https://images.unsplash.com/photo-1654292542054-1ccd80cd24da?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)!important; 
+  background-attachment: fixed!important; 
+  background-size: cover!important; 
+  background-color: var(--background-2)!important; 
+  background-blend-mode: overlay!important;
+  background-position: top;
   color: var(--color);
   width: 994px;
   margin: auto;
   box-sizing: border-box;
   border: var(--border);
   min-height: 400px;
-  background-color: var(--background-2);
-  background-image: url(https://images.pexels.com/photos/35482440/pexels-photo-35482440.jpeg?_gl=1*t3eyfq*_ga*MTU5MjI4MTE0OS4xNzY2Njk4NTk5*_ga_8JE65Q40S6*czE3Njc2NTY1MDMkbzMkZzEkdDE3Njc2NTY1MTEkajUyJGwwJGgw);
-  background-size: cover;
-  backdrop-filter: grayscale(100%);
-  background-blend-mode: overlay;
   padding: 60px;
   display: flex;
   align-items: stretch;
@@ -198,17 +198,16 @@
 
 /* post */
 .ioatc-post {
-  --accent: rgba(230, 190, 138, 1);
-  color: var(--color);
+  background-image: url(https://images.unsplash.com/photo-1654292542054-1ccd80cd24da?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)!important; 
+  background-attachment: fixed!important; 
+  background-size: cover!important; 
+  background-color: var(--background-2)!important; 
+  background-blend-mode: overlay!important;
+  background-position: top;
   width: 644px;
   margin: auto;
   box-sizing: border-box;
   border: var(--border);
-  background-color: var(--background-2);
-  background-image: url(https://images.pexels.com/photos/35482440/pexels-photo-35482440.jpeg?_gl=1*t3eyfq*_ga*MTU5MjI4MTE0OS4xNzY2Njk4NTk5*_ga_8JE65Q40S6*czE3Njc2NTY1MDMkbzMkZzEkdDE3Njc2NTY1MTEkajUyJGwwJGgw);
-  background-size: cover;
-  backdrop-filter: grayscale(100%);
-  background-blend-mode: overlay;
   padding: 120px;
   display: flex;
   flex-direction: column;
@@ -309,3 +308,13 @@ a[href="/u1092"] + span:before {content: "Departamento de Cooperación Mágica I
 .salud .profile_field.icono img { content: url(https://i.imgur.com/Q9igdbP.gif); }
 .salud { --accent: rgba(133, 96, 136, 1)!important; } 
 .salud .spr-icongrupo i:after { content: "\f19c"; font-weight: 400!important; }
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1654292542054-1ccd80cd24da?q=80&w=2942&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)!important; 
+  background-attachment: fixed!important; 
+  background-size: cover!important; 
+  background-color: var(--background-2)!important; 
+  background-blend-mode: overlay!important;
+  background-position: top;
+  --accent: rgba(230, 190, 138, 1); 
+}

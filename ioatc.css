@@ -216,7 +216,7 @@
   justify-content: stretch;
   gap: 120px;
   font-family: 'Times New Roman';
-  font-size: 0.93em;
+  font-size: 1em;
   line-height: 0%;
 }
 
@@ -292,20 +292,20 @@
 /* códigos */
 
 .spr-avatar a[href="/u753"] img, .spr-avatar a[href="/u1092"] img {display: none;} 
-.spr-avatar a[href="/u753"] { display: inline-block;width: 250px;height: 400px;background-image: url("https://2img.net/i.imgur.com/NbakTtm.png");background-size: cover;background-position: center; } 
+.spr-avatar a[href="/u753"] { display: inline-block;width: 250px;height: 400px;background-image: url("https://i.imgur.com/tiL3gbV.png");background-size: cover;background-position: center; } 
 a[href="/u753"] span.group-7 strong, a[href="/u1092"] span.group-5 strong {font-size: 0;} 
 a[href="/u753"] span.group-7 strong:after {content: "Teddy Lupin"; font-size: 17px; color: var(--accent)!important;} 
 a[href="/u753"] + span, a[href="/u1092"] + span {font-size: 0px; margin-top: -6px;} 
 a[href="/u753"] + span i, a[href="/u1092"] + span i {font-size: 8px; margin-left: 3px;} 
-a[href="/u753"] + span:before {content: "Auror"; font-size: 11.89px} 
-.inversionista .profile_field.icono img {content: url(https://imgur.com/PeO867a.gif);} 
+a[href="/u753"] + span:before {content: "Oficina de Aurores"; font-size: 11.89px} 
+.inversionista .profile_field.icono img {content: url(https://i.imgur.com/iBzahGX.gif);} 
 .spri-txt, .spri-color, .spr-icongrupo i:before {display: none;} 
 .inversionista {--accent: rgba(67, 179, 173, 1)!important;} 
 .inversionista .spr-icongrupo i:after {content: "\f72b"; font-weight: 400!important;} 
 
-.spr-avatar a[href="/u1092"] {display: inline-block;width: 250px;height: 400px;background-image: url("https://2img.net/i.imgur.com/NbakTtm.png");background-size: cover;background-position: center;} 
+.spr-avatar a[href="/u1092"] {display: inline-block;width: 250px;height: 400px;background-image: url("https://i.imgur.com/E3BZWYx.png");background-size: cover;background-position: center;} 
 a[href="/u1092"] span.group-5 strong:after {content: "Victoire Weasley"; font-size: 17px; color: var(--accent)!important;} 
 a[href="/u1092"] + span:before {content: "Departamento de Cooperación Mágica Internacional"; font-size: 11.89px} 
-.salud .profile_field.icono img { content: url(https://imgur.com/7qvlzfA.gif); }
+.salud .profile_field.icono img { content: url(https://i.imgur.com/Q9igdbP.gif); }
 .salud { --accent: rgba(133, 96, 136, 1)!important; } 
 .salud .spr-icongrupo i:after { content: "\f19c"; font-weight: 400!important; }

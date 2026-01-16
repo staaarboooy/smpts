@@ -154,6 +154,7 @@
   color: var(--color)!important;
   text-decoration: none;
   transition: 1s ease-in;
+  font-weight: 400!important;
 }
 
 .ioatc-resumen .cronologia a strong {

@@ -17,7 +17,7 @@
   align-items: stretch;
   gap: 60px;
   font-family: 'Times New Roman';
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 0%;
 }
 
@@ -151,7 +151,7 @@
 }
 
 .ioatc-resumen .cronologia a {
-  color: var(--color);
+  color: var(--color)!important;
   text-decoration: none;
   transition: 1s ease-in;
 }
@@ -172,7 +172,7 @@
 }
 
 .ioatc-resumen .cronologia a:hover {
-  margin-left: 24px;
+  margin-left: 18px;
   transition: 1s ease-out;
   color: var(--accent);
 }
@@ -215,7 +215,7 @@
   justify-content: stretch;
   gap: 120px;
   font-family: 'Times New Roman';
-  font-size: 1.1em;
+  font-size: 1.2em;
   line-height: 0%;
 }
 

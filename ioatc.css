@@ -205,7 +205,7 @@
   background-color: var(--background-3)!important; 
   background-blend-mode: color-burn!important;
   background-position: top;
-  width: 644px;
+  width: 100%;
   margin: auto;
   box-sizing: border-box;
   border: var(--border);

@@ -206,6 +206,7 @@
   background-blend-mode: color-burn!important;
   background-position: top;
   width: 100%;
+  max-width: 750px;
   margin: auto;
   box-sizing: border-box;
   border: var(--border);
